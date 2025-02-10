@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --universe-box-colour:#12153B;
+    --universe-bg-colour:#090812;
+    background-color: #090a21;
+}
+
+.sidebarOptions {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarOptions .material-symbols-outlined {
+    padding: 20px;
+    color: white;
+}
+
+.sidebarOptions:hover {
+   background-color:#9BA7D4; 
+   border-radius: 30px;
+   color:#44418D ;
+   transition: color 100ms ease-out;
+}
+.sidebarOptions.active {
+    color: #44418D;
+} 
+
+.sidebar__post {
+    width: 100%;
+    border: none;
+    background-color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px; 
+}
+
+
+.sidebarOptions.active {
+    color: #44418D;
+}
